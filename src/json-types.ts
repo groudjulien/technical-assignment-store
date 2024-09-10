@@ -12,7 +12,6 @@ export function isJSONObject(value: any): value is JSONObject {
 
 export type JSONArray = JSONValue[];
 
-
 export type Permission = "r" | "w" | "rw" | "none";
 
 export function isPermission(value: any): value is Permission {
